@@ -16,8 +16,9 @@
 
 
     --text-blue-900: #2C49FE;
-    --text-blue-700: #2D3CAE;
     --text-blue-400: #01C8FF;
+    --text-gray-900: #666666;
+    --text-gray-700: #EAEDFF;
 
 }
 
@@ -61,8 +62,11 @@
     color: var(--text-blue-900);
 }
 
-.text-blue-700 {
-    color: var(--text-blue-700);
+.text-gray-900 {
+    color: var(--text-gray-900);
+}
+.text-gray-700 {
+    color: var(--text-gray-700);
 }
 
 .text-blue-400 {
