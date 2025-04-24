@@ -121,7 +121,7 @@ nav:hover::before {
     label[for="checkbox"] span {
         width: 100%;
         height: 5px;
-        background-color: black;
+        background-color: var(--text-blue-400);
         border-radius: 3px;
         transition: all 200ms linear;
     }
@@ -309,8 +309,9 @@ nav:hover::before {
     max-width: 1320px;
     width: 100%;
 }
-.gallery-items{
- cursor: pointer;
+
+.gallery-items {
+    cursor: pointer;
 }
 
 .gallery-item-1 {
@@ -403,4 +404,103 @@ nav:hover::before {
         padding-bottom: 20px;
     }
 
+}
+
+.section-3 {
+    min-height: 600px;
+    background: #F7F7F7;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 20px;
+}
+
+.max-w-720 {
+    max-width: 720px;
+}
+
+.comment-box {
+    max-width: 1320px;
+    border: 1px solid #9CA1BE;
+    border-radius: 35px;
+    padding: 7px 9px 7px 9px;
+}
+
+.comment-box textarea {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    background-color: transparent;
+    margin-top: 3px;
+}
+
+.comment-box textarea::placeholder {
+    color: var(grey-400);
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    white-space: nowrap;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.post-button {
+    border-radius: 36px;
+    padding-top: 13px;
+    padding-right: 28px;
+    padding-bottom: 13px;
+    padding-left: 28px;
+    border: 0;
+    background: var(--text-blue-900);
+    transition: all .2s linear;
+}
+
+.post-button:hover {
+    background: var(--text-blue-400);
+}
+
+.gap-21 {
+    gap: 21px;
+}
+
+.max-w-55 {
+    max-width: 55px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+.max-h-1244 {
+    max-height: 1244px;
+    width: 100%;
+    background: #F1F1F5;
+}
+.w-55 {
+    width: 55px;
+}
+.h-55 {
+    height: 55px;
+}
+.padding{
+    padding: 14px 25px 20px 20px;
+}
+.bg-gray_900{
+    background: var(--text-gray-400);
+}
+.border-radius{
+    border-radius: 20px;
+    border-top-left-radius: 0;
+}
+.curser-pointer{
+    cursor: pointer;
+}
+.mt-47{
+    margin-top: 47px;
+}
+.pb-100{
+    padding-bottom: 100px;
 }
