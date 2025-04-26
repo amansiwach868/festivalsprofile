@@ -12,44 +12,44 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="navbar">
-            <div class="container ">
-                <div class="d-flex align-items-center justify-content-between w-100">
-                    <a class="d-flex align-items-center gap-15 text-decoration-none" href="#">
-                        <img src="assets/images/logo-img.svg" alt="logo img">
-                        <h2 class="logo-text text-blue-900 fs_2xl fw_md">
-                            Event<span class=" text-blue-400">Free</span>
-                        </h2>
-                    </a>
-                    <input type="checkbox" id="checkbox" hidden>
-                    <label for="checkbox">
-                        <span class="line"></span>
-                        <span class="line"></span>
-                        <span class="line"></span>
-                    </label>
-                    <div class="nav-content">
-                        <ul class="d-lg-flex d-block align-items-center gap-64 ps-0 mb-0">
-                            <li>
-                                <a class="nav fs_base text-black fw_xs text-decoration-none" href="">HOME</a>
-                            </li>
-                            <li>
-                                <a class="fs_base text-black fw_xs text-decoration-none" href="">EVENTS</a>
-                            </li>
-                            <li>
-                                <a class="fs_base text-black fw_xs text-decoration-none" href="">FEED</a>
-                            </li>
-                            <li>
-                                <a class="fs_base text-black fw_xs text-decoration-none" href="">USER NAME</a>
-                            </li>
-                            <li>
-                                <button class="text-white fs_base fw_base nav-button">Log Out</button>
-                            </li>
-                        </ul>
-                    </div>
+    <nav class="navbar position-sticky top-0 z-3">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-between w-100">
+                <a class="d-flex align-items-center gap-15 text-decoration-none" href="#">
+                    <img src="assets/images/logo-img.svg" alt="logo img">
+                    <h2 class="logo-text text-blue-900 fs_2xl fw_md">
+                        Event<span class=" text-blue-400">Free</span>
+                    </h2>
+                </a>
+                <input type="checkbox" id="checkbox" hidden>
+                <label for="checkbox">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </label>
+                <div class="nav-content">
+                    <ul class="d-lg-flex d-block align-items-center gap-64 ps-0 mb-0">
+                        <li>
+                            <a class="nav fs_base text-black fw_xs text-decoration-none" href="">HOME</a>
+                        </li>
+                        <li>
+                            <a class="fs_base text-black fw_xs text-decoration-none" href="">EVENTS</a>
+                        </li>
+                        <li>
+                            <a class="fs_base text-black fw_xs text-decoration-none" href="">FEED</a>
+                        </li>
+                        <li>
+                            <a class="fs_base text-black fw_xs text-decoration-none" href="">USER NAME</a>
+                        </li>
+                        <li>
+                            <button class="text-white fs_base fw_base nav-button">Log Out</button>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <header class="header ">
         <div class="container">
             <div class="row mt-67 d-flex flex-column flex-xl-row row-gap-30 ">
                 <div class="col-xl-4 col-12 d-flex justify-content-center">
@@ -232,7 +232,7 @@
                 eget aliquet.</p>
             <div class="w-100 comment-box d-flex flex-sm-row flex-column justify-content-center gap-21 mt-47">
                 <img class="w-100 max-w-55" src="assets/images/comment-img-1.png" alt="">
-                <textarea name="comments-writter" placeholder="Add a new comment"></textarea>
+                <input type="text" name="comments-writter" placeholder="Add a new comment"></input>
                 <button class=" white-space-nowrap post-button fs_lg fw_base text-white">Post Comment</button>
             </div>
             <div  class="mt-47 d-flex flex-column gap-21 w-100">
